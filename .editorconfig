@@ -15,3 +15,4 @@ trim_trailing_whitespace = true # insere espaços depois das vírgulas ou sinais
 insert_final_newline = true # adiciona uma nova linha vazia no final do arquivo
 
 #    npx prettier --write .\src\
+#    npx eslint --fix .\src\ 
