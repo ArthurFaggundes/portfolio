@@ -25,7 +25,13 @@
         "react-hooks/exhaustive-deps": "warn", // avisar sobre dependências faltando em useEffect
         "react/prop-types": "off", // desativar verificação de prop-types para projetos TypeScript (pq não precisa mais)
         "react/react-in-jsx-scope": "off", // desabilita a necessitade de importar o React em cada arquivo JSX (a partir do React 17 não é mais necessário)
-        "@typescript-eslint/explicit-module-boundary-types": "off" // desativa a exigência de tipos explícitos para funções exportadas
+        "@typescript-eslint/explicit-module-boundary-types": "off", // desativa a exigência de tipos explícitos para funções exportadas
+        "prettier/prettier": [
+            "error",
+            {
+                "endOfLine": "auto"
+            }
+        ]
     },
     "settings": {
         "react": {
