@@ -10,8 +10,8 @@ const About = () => (
             efficient and scalable web applications.
         </Paragraph>
         <GithubSection>
-            <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ArthurHFagundes&show_icons=true&theme=dracula" />
-            <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ArthurHFagundes&layout=compact&theme=dracula" />
+            <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ArthurFaggundes&show_icons=true&theme=dracula" />
+            <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ArthurFaggundes&layout=compact&theme=dracula" />
         </GithubSection>
     </section>
 )
