@@ -1,7 +1,7 @@
 import { AvatarImage } from './styles'
 
 const Avatar = () => {
-    return <AvatarImage src="https://github.com/ArthurHFagundes.png" />
+    return <AvatarImage src="https://github.com/ArthurFaggundes.png" />
 }
 
 export default Avatar
