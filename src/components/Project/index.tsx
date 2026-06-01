@@ -1,25 +1,18 @@
 import Title from '../Title'
 import Paragraph from '../Paragraph'
 import { Card, ButtonLink, Image } from './styles'
-import contactList from './images/contact-list.jpg'
-import bmiCalculator from './images/bmi-normal.png'
-import autoCalculator from './images/calauto-division.png'
-import ahfShoes from './images/ahfshores.jpg'
 
 const ProjectContactList = () => (
     <Card>
         <Title>Contact List </Title>
         <Image
-            src={contactList}
+            src="https://img.sanishtech.com/u/7ca6c1992251097f6205d284513c8c4b.jpg"
             alt="Screen showing editing a contact from the list"
         />
         <Paragraph atributeType="secundario">
             Development of a web application for contact management, allowing
             users to add, view, edit, and delete information in a practical and
-            organized manner directly on the contact cards. The project was
-            developed with a focus on modularity, state management, and the
-            creation of a modern, responsive interface, providing improved
-            usability and navigation.
+            organized manner directly on the contact cards.
         </Paragraph>
         <ButtonLink
             target="_blank"
@@ -34,7 +27,7 @@ const ProjectBMICalculator = () => (
     <Card>
         <Title>BMI Calculator</Title>
         <Image
-            src={bmiCalculator}
+            src="https://img.sanishtech.com/u/bf11cca19a7cb9373141cb10b6056408.png"
             alt="Screen showing a response to a normal BMI"
         />
         <Paragraph atributeType="secundario">
@@ -55,7 +48,7 @@ const CalculadoraAutomatica = () => (
     <Card>
         <Title>Calculadora Automatica (pt-br)</Title>
         <Image
-            src={autoCalculator}
+            src="https://img.sanishtech.com/u/2431ff8efbdc2224bac6aae791f21779.png"
             alt="Screen a division operation automatically"
         />
         <Paragraph atributeType="secundario">
@@ -76,7 +69,10 @@ const CalculadoraAutomatica = () => (
 const AHFShoes = () => (
     <Card>
         <Title> AHFShoes E-Commerce (pt-br)</Title>
-        <Image src={ahfShoes} alt="Screen a division operation automatically" />
+        <Image
+            src="https://img.sanishtech.com/u/071a0c259b868c0fc67260d4933f7919.jpg"
+            alt="Screen a division operation automatically"
+        />
         <Paragraph atributeType="secundario">
             Development of a responsive institutional website, designed to meet
             the requirements of the business, with an additional focus on visual
