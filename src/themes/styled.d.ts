@@ -6,6 +6,7 @@ declare module 'styled-components' {
         secondColor: string
         backgroundColor: string
         button_BackgroundColor: string
+        button_BackgroundColorHover: string
         projects_BorderColor: string
     }
 }

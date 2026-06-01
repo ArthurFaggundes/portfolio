@@ -7,12 +7,19 @@ export const Card = styled.div`
 
 export const ButtonLink = styled.a`
     color: ${(props) => props.theme.backgroundColor};
-    font-size: 14px;
     background-color: ${(props) => props.theme.button_BackgroundColor};
+    font-size: 14px;
     text-decoration: none;
     padding: 8px;
     display: inline-block;
-    margin-top: 24px;
+
+    padding-top: 8px;
+    padding-bottom: 8px;
+    text-align: center;
+
+    :hover: {
+        background-color: ${(props) => props.theme.button_BackgroundColorHover};
+    }
 `
 export const Image = styled.img`
     max-width: 100%;
