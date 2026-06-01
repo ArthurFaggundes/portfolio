@@ -1,9 +1,9 @@
 import Title from '../../components/Title'
 import {
-    ProjectToDoList,
+    ProjectContactList,
     ProjectBMICalculator,
-    ProjectShowGitHubProfile,
-    ProjectPersonalProgress
+    CalculadoraAutomatica,
+    AHFShoes
 } from '../../components/Project'
 import { List } from './styles'
 
@@ -12,16 +12,16 @@ const Projects = () => (
         <Title fontSize={16}>Projects</Title>
         <List>
             <li>
-                <ProjectToDoList />
+                <ProjectContactList />
             </li>
             <li>
                 <ProjectBMICalculator />
             </li>
             <li>
-                <ProjectShowGitHubProfile />
+                <CalculadoraAutomatica />
             </li>
             <li>
-                <ProjectPersonalProgress />
+                <AHFShoes />
             </li>
         </List>
     </section>

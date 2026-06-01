@@ -12,14 +12,16 @@ const Sidebar = (props: ThemeButtonProps) => (
     <aside>
         <SideBarContainer>
             <Avatar />
-            <Title fontSize={20}>Arthur Faggundês</Title>
+            <Title fontSize={20}>Arthur Fagundes</Title>
             <Paragraph atributeType="secundario" fontSize={16}>
                 ArthurFaggundes
             </Paragraph>
             <Description atributeType="principal" fontSize={12}>
-                Front-end Engineer
+                Software Engineer
             </Description>
-            <ThemeButton onClick={props.toggleTheme}>Trocar tema</ThemeButton>
+            <ThemeButton onClick={props.toggleTheme}>
+                Change Dark/Light Theme
+            </ThemeButton>
         </SideBarContainer>
     </aside>
 )

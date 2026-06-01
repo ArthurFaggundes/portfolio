@@ -14,3 +14,7 @@ export const ButtonLink = styled.a`
     display: inline-block;
     margin-top: 24px;
 `
+export const Image = styled.img`
+    max-leight: 100px;
+    padding: 10px;
+`

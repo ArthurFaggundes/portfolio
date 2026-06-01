@@ -1,19 +1,27 @@
 import Title from '../Title'
 import Paragraph from '../Paragraph'
-import { Card, ButtonLink } from './styles'
+import { Card, ButtonLink, Image } from './styles'
 
-const ProjectToDoList = () => (
+const ProjectContactList = () => (
     <Card>
-        <Title>To Do List (pt-br)</Title>
+        <Title>Contact List </Title>
+        <Image
+            src="../../contact-list.jpg"
+            alt="Screen showing editing a contact from the list"
+        />
         <Paragraph atributeType="secundario">
-            A task management application built with VueJS that allows users to
-            create, update, and delete tasks. Features include task filtering.
+            Development of a web application for contact management, allowing
+            users to add, view, edit, and delete information in a practical and
+            organized manner directly on the contact cards. The project was
+            developed with a focus on modularity, state management, and the
+            creation of a modern, responsive interface, providing improved
+            usability and navigation.
         </Paragraph>
         <ButtonLink
             target="_blank"
-            href="https://todo-list-vue-sand.vercel.app/"
+            href="https://contact-list-react-kappa.vercel.app/"
         >
-            Visualizar
+            Visualize
         </ButtonLink>
     </Card>
 )
@@ -21,6 +29,10 @@ const ProjectToDoList = () => (
 const ProjectBMICalculator = () => (
     <Card>
         <Title>BMI Calculator</Title>
+        <Image
+            src="../../images/bmi-normal.png"
+            alt="Screen showing a response to a normal BMI"
+        />
         <Paragraph atributeType="secundario">
             A Body Mass Index (BMI) calculator built with ReactJS that allows
             users to input their height and weight to calculate their BMI with a
@@ -30,49 +42,55 @@ const ProjectBMICalculator = () => (
             target="_blank"
             href="https://exercicio-react-bmi.vercel.app/"
         >
-            Visualizar
+            Visualize
         </ButtonLink>
     </Card>
 )
 
-const ProjectShowGitHubProfile = () => (
+const CalculadoraAutomatica = () => (
     <Card>
-        <Title>GitHub Profile (pt-br)</Title>
+        <Title>Calculadora Automatica (pt-br)</Title>
+        <Image
+            src="../../images/calauto-division.png"
+            alt="Screen a division operation automatically"
+        />
         <Paragraph atributeType="secundario">
-            A web application that fetches and displays GitHub user profiles
-            using the GitHub API. Built with ReactJS, it allows users to search
-            for GitHub usernames and view their profile information.
+            An interactive web application that automatically performs
+            calculations based on the entry of two values and the selection of
+            one of four mathematical operations, with real-time updates, without
+            the need to click a button.
         </Paragraph>
         <ButtonLink
             target="_blank"
-            href="https://github-perfil-ahf.vercel.app/"
+            href="https://exercicio-vue-js-ruddy.vercel.app/"
         >
-            Visualizar
+            Visualize
         </ButtonLink>
     </Card>
 )
 
-const ProjectPersonalProgress = () => (
+const AHFShoes = () => (
     <Card>
-        <Title>Prototype - Gamified Personal Progress (pt-br)</Title>
+        <Title> AHFShoes E-Commerce (pt-br)</Title>
+        <Image
+            src="../../images/ahfshoes-tablet.jpg"
+            alt="Screen a division operation automatically"
+        />
         <Paragraph atributeType="secundario">
-            A prototype of a gamified personal progress application developed
-            using the assistence of Bolt AI. The app is designed to help users
-            track their goals and progress in a fun and engaging way. Im using
-            this AI only for study purposes.
+            Development of a responsive institutional website, designed to meet
+            the requirements of the business, with an additional focus on visual
+            presentation, usability, and responsiveness across different
+            devices.
         </Paragraph>
-        <ButtonLink
-            target="_blank"
-            href="https://gamified-personal-pr-2hqd.bolt.host/"
-        >
-            Visualizar
+        <ButtonLink target="_blank" href="https://ahf-shoes-2-0.vercel.app/">
+            Visualize
         </ButtonLink>
     </Card>
 )
 
 export {
-    ProjectToDoList,
+    ProjectContactList,
     ProjectBMICalculator,
-    ProjectShowGitHubProfile,
-    ProjectPersonalProgress
+    CalculadoraAutomatica,
+    AHFShoes
 }
