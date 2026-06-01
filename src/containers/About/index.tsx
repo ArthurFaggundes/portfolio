@@ -22,7 +22,7 @@ const About = () => (
             <img src="https://img.shields.io/badge/html5-E34F26?style=for-the-badge&logo=Html5&logoColor=white" />
         </ShiledSection>
         <GithubSection>
-            <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ArthurFaggundes&show_icons=true&theme=dracula" />
+            <img src="https://github-readme-stats-sigma-five.vercel.app/api?username=ArthurFaggundes&show_icons=true&theme=dracula&count_private=true" />
             <img src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ArthurFaggundes&layout=compact&theme=dracula" />
         </GithubSection>
     </section>
