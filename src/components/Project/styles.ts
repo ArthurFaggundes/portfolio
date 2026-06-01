@@ -10,16 +10,11 @@ export const ButtonLink = styled.a`
     background-color: ${(props) => props.theme.button_BackgroundColor};
     font-size: 14px;
     text-decoration: none;
-    padding: 8px;
     display: inline-block;
     width: 100%;
     padding-top: 8px;
     padding-bottom: 8px;
     text-align: center;
-
-    a:hover {
-        background-color: ${(props) => props.theme.button_BackgroundColorHover};
-    }
 `
 export const Image = styled.img`
     max-width: 100%;
