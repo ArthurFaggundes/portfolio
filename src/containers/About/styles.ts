@@ -14,3 +14,7 @@ export const GithubSection = styled.div`
         }
     }
 `
+
+export const ShiledSection = styled.div`
+    align: center;
+`

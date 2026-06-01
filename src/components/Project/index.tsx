@@ -1,12 +1,16 @@
 import Title from '../Title'
 import Paragraph from '../Paragraph'
 import { Card, ButtonLink, Image } from './styles'
+import contactList from './contact-list.jpg'
+import bmiCalculator from './contact-list.jpg'
+import autoCalculator from './contact-list.jpg'
+import ahfShoes from './contact-list.jpg'
 
 const ProjectContactList = () => (
     <Card>
         <Title>Contact List </Title>
         <Image
-            src="../../contact-list.jpg"
+            src={contactList}
             alt="Screen showing editing a contact from the list"
         />
         <Paragraph atributeType="secundario">
@@ -30,7 +34,7 @@ const ProjectBMICalculator = () => (
     <Card>
         <Title>BMI Calculator</Title>
         <Image
-            src="../../images/bmi-normal.png"
+            src={bmiCalculator}
             alt="Screen showing a response to a normal BMI"
         />
         <Paragraph atributeType="secundario">
@@ -51,7 +55,7 @@ const CalculadoraAutomatica = () => (
     <Card>
         <Title>Calculadora Automatica (pt-br)</Title>
         <Image
-            src="../../images/calauto-division.png"
+            src={autoCalculator}
             alt="Screen a division operation automatically"
         />
         <Paragraph atributeType="secundario">
@@ -72,10 +76,7 @@ const CalculadoraAutomatica = () => (
 const AHFShoes = () => (
     <Card>
         <Title> AHFShoes E-Commerce (pt-br)</Title>
-        <Image
-            src="../../images/ahfshoes-tablet.jpg"
-            alt="Screen a division operation automatically"
-        />
+        <Image src={ahfShoes} alt="Screen a division operation automatically" />
         <Paragraph atributeType="secundario">
             Development of a responsive institutional website, designed to meet
             the requirements of the business, with an additional focus on visual

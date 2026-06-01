@@ -1,46 +1,45 @@
-# Getting Started with Create React App
+## 📌 Portfolio Pessoal - Arthur Fagundes
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Meu portfólio profissional desenvolvido para apresentar projetos, e um pouco mais sobre mim, minhas experiências e conhecimentos em desenvolvimento web.
 
-## Available Scripts
+🌐 Acesse o projeto:
+https://portfolio-self-ten-36.vercel.app/
 
-In the project directory, you can run:
+## 📖 Sobre o Projeto
 
-### `npm start`
+Este portfólio foi desenvolvido com o objetivo de centralizar meus principais projetos, experiências em desenvolvimento.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+Além de servir como uma apresentação profissional, o projeto também representa minha evolução prática no estudo de tecnologias modernas do Front-End, aplicando conceitos de responsividade, componentes reutilizáveis, boas práticas de desenvolvimento e experiência do usuário.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## ✨ Funcionalidades
+- Apresentação profissional;
+- Seção de projetos com links para demonstrações e repositórios;
+- Exibição das principais tecnologias utilizadas;
+- Layout responsivo para desktop, tablet e dispositivos móveis;
+- Navegação intuitiva;
+- Integração com GitHub e redes profissionais;
+- Design focado em usabilidade e clareza visual;
 
-### `npm test`
+## 🛠️ Tecnologias Utilizadas
+- Front-End:
+    - HTML5
+    - CSS3
+    - JavaScript (ES6+)
+    - React
+- Ferramentas:
+    - Git
+    - GitHub
+    - Vercel
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 🎯 Objetivo
 
-### `npm run build`
+Este projeto foi criado para:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- Demonstrar minhas habilidades técnicas;
+- Compartilhar projetos desenvolvidos durante minha jornada de aprendizado, principalmente pela EBAC;
+- Servir como ponto central para recrutadores, empresas e profissionais conhecerem meu trabalho;
+- Consolidar conhecimentos em desenvolvimento Front-End através da prática.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 📄 Licença
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Este projeto foi desenvolvido para fins de estudo, demonstração profissional e composição de portfólio.
