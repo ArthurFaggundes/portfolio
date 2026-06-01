@@ -1,10 +1,10 @@
 import Title from '../Title'
 import Paragraph from '../Paragraph'
 import { Card, ButtonLink, Image } from './styles'
-import contactList from './contact-list.jpg'
-import bmiCalculator from './contact-list.jpg'
-import autoCalculator from './contact-list.jpg'
-import ahfShoes from './contact-list.jpg'
+import contactList from './images/contact-list.jpg'
+import bmiCalculator from './images/bmi-normal.png'
+import autoCalculator from './images/calauto-division.png'
+import ahfShoes from './images/ahfshores.jpg'
 
 const ProjectContactList = () => (
     <Card>

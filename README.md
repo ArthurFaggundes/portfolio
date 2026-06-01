@@ -1,3 +1,59 @@
+# ENGLISH VERSION (🇺🇸)
+
+# 📌 Personal Portfolio - Arthur Fagundes
+
+My professional portfolio was developed to showcase my projects, as well as provide insight into who I am, my experiences, and my knowledge of web development.
+
+🌐 **Live Demo:**
+https://portfolio-self-ten-36.vercel.app/
+
+## 📖 About the Project
+
+This portfolio was created to centralize my main projects and development experience in a single place.
+
+In addition to serving as a professional presentation, this project represents my practical growth in studying modern Front-End technologies, applying concepts such as responsive design, reusable components, development best practices, and user experience.
+
+## ✨ Features
+
+* Professional presentation;
+* Project showcase with links to live demos and repositories;
+* Display of key technologies and skills;
+* Responsive layout for desktop, tablet, and mobile devices;
+* Intuitive navigation;
+* Integration with GitHub and professional networks;
+* Design focused on usability and visual clarity.
+
+## 🛠️ Technologies Used
+
+### Front-End
+
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* React
+
+### Tools
+
+* Git
+* GitHub
+* Vercel
+
+## 🎯 Purpose
+
+This project was created to:
+
+* Showcase my technical skills;
+* Share projects developed throughout my learning journey, especially through EBAC;
+* Serve as a central hub for recruiters, companies, and professionals interested in my work;
+* Strengthen and apply my Front-End development knowledge through practical experience.
+
+## 📄 License
+
+This project was developed for educational purposes, professional presentation, and portfolio composition.
+
+---
+# VERSÃO EM PORTUGUÊS (🇧🇷)
+
 ## 📌 Portfolio Pessoal - Arthur Fagundes
 
 Meu portfólio profissional desenvolvido para apresentar projetos, e um pouco mais sobre mim, minhas experiências e conhecimentos em desenvolvimento web.
