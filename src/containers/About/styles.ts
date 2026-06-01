@@ -17,4 +17,8 @@ export const GithubSection = styled.div`
 
 export const ShiledSection = styled.div`
     align: center;
+
+    img {
+        margin-right: 10px;
+    }
 `

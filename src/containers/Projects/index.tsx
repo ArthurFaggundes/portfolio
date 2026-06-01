@@ -12,7 +12,7 @@ const Projects = () => (
         <Title fontSize={16}>Projects</Title>
         <List>
             <li>
-                <ProjectContactList />
+                <AHFShoes />
             </li>
             <li>
                 <ProjectBMICalculator />
@@ -21,7 +21,7 @@ const Projects = () => (
                 <CalculadoraAutomatica />
             </li>
             <li>
-                <AHFShoes />
+                <ProjectContactList />
             </li>
         </List>
     </section>

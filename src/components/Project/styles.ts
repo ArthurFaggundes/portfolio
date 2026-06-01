@@ -15,6 +15,5 @@ export const ButtonLink = styled.a`
     margin-top: 24px;
 `
 export const Image = styled.img`
-    max-leight: 100px;
-    padding: 10px;
+    max-width: 100%;
 `

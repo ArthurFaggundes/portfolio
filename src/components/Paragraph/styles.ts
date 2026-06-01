@@ -9,4 +9,5 @@ export const Paragraph = styled.p<Props>`
             ? props.theme.firstColor
             : props.theme.secondColor};
     line-height: 22px;
+    margin-bottom: 16px;
 `
