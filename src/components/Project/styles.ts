@@ -12,12 +12,12 @@ export const ButtonLink = styled.a`
     text-decoration: none;
     padding: 8px;
     display: inline-block;
-
+    width: 100%;
     padding-top: 8px;
     padding-bottom: 8px;
     text-align: center;
 
-    :hover: {
+    a:hover {
         background-color: ${(props) => props.theme.button_BackgroundColorHover};
     }
 `
